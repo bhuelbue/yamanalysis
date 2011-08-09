@@ -17,7 +17,7 @@ Create the MySQL database:
   
 Create an OAuth file for Yammer access:  
   
-*  ruby yam\_create\_oauth\_yml.rb -k <Consumer key> - s <Consumer secret>
+*  ruby yam\_create\_oauth\_yml.rb -k YourConsumerKey -s YourConsumerSecret
   
 Yamanalysis Usage
 =================
