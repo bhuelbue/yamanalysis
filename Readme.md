@@ -1,8 +1,8 @@
 Initial Tasks
 =============
   
-Start with reading the blog post [Word Clouds and Social Graphs in Yammer](http://bhuelbue.blogspot.com/2011/07/word-clouds-and-social-graphs-in-yammer.html). A detailed description is available in the blog post [Yamanalysis - A Ruby Yammer API Usage Example](http://bhuelbue.blogspot.com/2011/08/yamanalysis-ruby-yammer-api-usage.html).  
-Please customize Yamanalysis usage like the location where you installed the IBM Word Cloud Generator, your mail domain, the database name, user and password for MySQL in:  
+Start with reading the blog post [Word Clouds and Social Graphs in Yammer](http://bhuelbue.blogspot.com/2011/07/word-clouds-and-social-graphs-in-yammer.html). A long and detailed description with many illustrations is available in the blog post [Yamanalysis - A Ruby Yammer API Usage Example](http://bhuelbue.blogspot.com/2011/08/yamanalysis-ruby-yammer-api-usage.html).  
+Please customize Yamanalysis usage like the location where you installed the IBM Word Cloud Generator, your default mail domain, the database name, the userid and password for MySQL and other parameters in:  
   
 *  yam\_config.rb
 *  db/yam\_development\_new.sql
