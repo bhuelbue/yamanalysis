@@ -1,0 +1,10 @@
+.DS_Store
+db/.DS_Store
+graph/.DS_Store
+lib/.DS_Store
+wordcloud/.DS_Store
+.project
+yam.tmproj
+oauth.yml
+oauth_ycn.yml
+oauth_ford.yml
