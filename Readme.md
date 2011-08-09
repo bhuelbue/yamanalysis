@@ -1,18 +1,22 @@
 Initial Tasks
 =============
   
-Start with reading the blog post: [Word Clouds and Social Graphs in Yammer]: http://bhuelbue.blogspot.com/2011/07/word-clouds-and-social-graphs-in-yammer.html  
+Start with reading the blog post: [Word Clouds and Social Graphs in Yammer](http://bhuelbue.blogspot.com/2011/07/word-clouds-and-social-graphs-in-yammer.html)  
 Please customize Yamanalysis usage like the location where you installed the IBM Word Cloud Generator, your mail domain, the database name, user and password for MySQL in:  
+  
 *  yam\_config.rb
 *  db/yam\_development\_new.sql
   
 Customize the font parameter for your word cloud:  
+  
 *  wordcloud/configuration.txt
   
 Create the MySQL database:  
+  
 *  mysql < db/yam\_development\_new.sql -u root -p
   
 Create an OAuth file for Yammer access:  
+  
 *  ruby yam\_create\_oauth\_yml.rb -k <Consumer key> - s <Consumer secret>
   
 Yamanalysis Usage
@@ -21,6 +25,7 @@ Yamanalysis Usage
 Use a command window and run the following Ruby programs.  
   
 Download user information:  
+  
 *  ruby yam\_user.rb
   
 -----
@@ -45,6 +50,7 @@ Download user information:
 ----
   
 Download user information for one Yammer user with a given Yammer ID:  
+  
 *  ruby yam\_user\_id.rb -h
   
 ----
@@ -57,6 +63,7 @@ Download user information for one Yammer user with a given Yammer ID:
 ----
   
 Create a user wall png image:  
+  
 *  ruby yam\_user\_wall\_img.rb
   
 ----
@@ -73,6 +80,7 @@ Create a user wall png image:
 ----
   
 Download messages:  
+  
 *  ruby yam\_last\_msg.rb
   
 ----
@@ -100,6 +108,7 @@ Download messages:
 ----
   
 Create a word cloud:  
+  
 *  ruby yam\_word\_cloud.rb -h
   
 -----
@@ -124,6 +133,7 @@ Create a word cloud:
 ----
   
 Create thread analysis graphs:  
+  
 *  ruby yam\_thread\_img.rb -h
   
 ----
