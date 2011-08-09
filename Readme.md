@@ -156,14 +156,14 @@ Create thread analysis graphs:
 	5 initial posts
 	23 relations
 	GV File '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07.gv' created.
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_dot.png'
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_fdp.png'
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_sfdp.png'
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_twopi.png'
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_circo.png'
-	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07\_neato.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_dot.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_fdp.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_sfdp.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_twopi.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_circo.png'
+	PNG file is '/project/yam/graph/thread_analysis_2011-08-06_2011-08-07_neato.png'
 	Cytoscape File '/project/yam/graph/cyto_2011-08-06_2011-08-07.txt' created.
-	Gephi File '/project/yam/graph/gephi_2011-08-06\_2011-08-07.sql' created.
+	Gephi File '/project/yam/graph/gephi_2011-08-06_2011-08-07.sql' created.
 	mysql yam_development < /project/yam/graph/gephi_2011-08-06_2011-08-07.sql running ...
 	Duration 23.1798 sec.
 ----

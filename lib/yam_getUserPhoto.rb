@@ -25,7 +25,7 @@ def getYamImage(yamid, filename, imagename)
       end
       file.close
       
-      if  File.zero?(filedown)
+      if File.zero?(filedown)
         return nil
       else
         image = Magick::Image.read(filedown).first

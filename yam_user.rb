@@ -17,7 +17,7 @@ activerecord_connect
 #------------------------------------------------------------------------------#
 # Print out all the 50 users per page                                          #
 #------------------------------------------------------------------------------#
- ("A".."Z").each do |l|
+("A".."Z").each do |l|
   p = 1
   usr = yammer.users :letter => l, :page => p
   getInfo(usr)

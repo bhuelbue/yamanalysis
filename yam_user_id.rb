@@ -6,7 +6,7 @@ require './lib/yam_database.rb'
 require './lib/yam_getUserInfo.rb'
 
 #------------------------------------------------------------------------------#
-# Create a new Yammer Client                                                   #
+# Parse the Yammer ID                                                          #
 #------------------------------------------------------------------------------#
 t0 = Time.new
 
@@ -25,13 +25,13 @@ if OPTIONS[:yamid].nil?
   puts "Missing required option for '#{File.basename($0)}': -h or -u userid"
   exit
 else 
-    begin 
-      Integer(OPTIONS[:yamid])
-    rescue Exception => e
-      puts e
-      puts "Invalid parameter: '%s'. Use a valid Yammer ID." % OPTIONS[:yamid]
-      exit
-    end
+  begin 
+    Integer(OPTIONS[:yamid])
+  rescue Exception => e
+    puts e
+    puts "Invalid parameter: '%s'. Use a valid Yammer ID." % OPTIONS[:yamid]
+    exit
+  end
 end
 
 #------------------------------------------------------------------------------#

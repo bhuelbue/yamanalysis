@@ -46,7 +46,7 @@ response = consumer.token_request(consumer.http_method,
   (consumer.access_token_url? ? consumer.access_token_url : consumer.access_token_path),
   request_token, 
   {}, 
-	:oauth_verifier =>  oauth_verifier.chomp)
+  :oauth_verifier =>  oauth_verifier.chomp)
 access_token = OAuth::AccessToken.new(consumer,response[:oauth_token],response[:oauth_token_secret])
 
 oauth_yml = <<-EOT

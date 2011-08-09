@@ -169,7 +169,7 @@ puts "GV File '#{gv_name}' created."
 end
 
 #------------------------------------------------------------------------------#
-# Write the Cytospace .txt file                                                #
+# Write the Cytoscape .txt file                                                #
 #------------------------------------------------------------------------------#
 cyto_name = "#{$YAM_GRAPH_PATH}/cyto_#{dayfrom}_#{dayto}.txt"
 fcyto = File.open(cyto_name, 'w')
