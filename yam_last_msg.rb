@@ -111,9 +111,9 @@ def checkMessages(messages)
           puts "ERROR    --------->"
           puts a.inspect
           puts "END      <---------"
-        elsif a['name'].include?('Link: ')
+        elsif a['name'].include?('Links: ')
           if $YAM_VERBOSE
-            puts "LINK   --------->"
+            puts "LINKS --------->"
             puts "YamMsgId  : %s" % m.id
             puts "YamThread : %s" % m.thread_id
             puts "LinkId    : %s" % a['id']
@@ -125,9 +125,9 @@ def checkMessages(messages)
             puts "END      <---------"
           end
           getAttYmodule(m, a)
-        elsif a['name'].include?('Question: ')
+        elsif a['name'].include?('Questions: ')
           if $YAM_VERBOSE
-            puts "QUESTION --------->"
+            puts "QUESTIONS--------->"
             puts "YamMsgId  : %s" % m.id
             puts "YamThread : %s" % m.thread_id
             puts "QaId      : %s" % a['id'] 
@@ -141,9 +141,9 @@ def checkMessages(messages)
             puts "END      <---------"
           end
           getAttYmodule(m, a)
-        elsif a['name'].include?('Poll: ')
+        elsif a['name'].include?('Polls: ')
           if $YAM_VERBOSE
-            puts "POLL     --------->"
+            puts "POLLS    --------->"
             puts "YamMsgId  : %s" % m.id
             puts "YamThread : %s" % m.thread_id
             puts "QaId      : %s" % a['id'] 
@@ -157,9 +157,9 @@ def checkMessages(messages)
             puts "END      <---------"
           end
           getAttYmodule(m, a)
-        elsif a['name'].include?('Idea: ')
+        elsif a['name'].include?('Ideas: ')
           if $YAM_VERBOSE
-            puts "IDEA     --------->"
+            puts "IDEAS    --------->"
             puts "YamMsgId  : %s" % m.id
             puts "YamThread : %s" % m.thread_id
             puts "IdeaId    : %s" % a['id'] 
