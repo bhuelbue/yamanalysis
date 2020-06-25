@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-gem "rack", ">= 1.6.12"
+gem "rack", ">= 2.1.4"
 gem "curb"
 gem "json"
 gem "mysql"
