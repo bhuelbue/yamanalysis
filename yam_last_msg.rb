@@ -198,7 +198,11 @@ def checkMessages(messages)
           puts "ImgThmbUrl: %s" % a['image']['thumbnail_url']
           puts "END      <---------"
         end
-        getAttImage(m.id, a)
+        begin
+          getAttImage(m.id, a)
+        rescue 
+          print "Failed to write image: ", $!, "\n"
+        end 
       elsif a['type'].eql?('file')
         if $YAM_VERBOSE
           puts "FILE     --------->"
